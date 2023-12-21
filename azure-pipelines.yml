@@ -21,7 +21,7 @@ steps:
   inputs:
     command: 'push'
     tags: 'latest'
-    containerRegistry: 'ucavs'
+    containerRegistry: 'ucavs.azurecr.io'
 
 - task: Docker@2
   displayName: 'Docker Compose Up'
