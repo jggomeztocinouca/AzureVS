@@ -21,7 +21,7 @@ steps:
   inputs:
     command: 'push'
     tags: 'latest'
-    containerRegistry: 'AcrMSI'
+    containerRegistry: 'crucavs.azurecr.io'
     repository: 'AzureVS1'
 
 - task: Docker@2
